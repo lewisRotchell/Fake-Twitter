@@ -23,6 +23,8 @@ export default {
             current: "currentColor",
             white: {
                 DEFAULT: "rgb(230 233 234)",
+                border: "rgb(47, 51, 54)",
+                pure: "#ffffff",
             },
             black: "#000000",
             blue: "rgb(29, 155, 240)",

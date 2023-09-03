@@ -14,12 +14,12 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="w-full antialiased font-roboto">
+    <body class="w-full antialiased text-white font-roboto">
             <div class="min-h-screen bg-black">
                 <div class="max-w-[1249px] w-full mx-auto">
                     <div class="flex">
                         @include('frontend.layouts.left-sidebar')
-                        <div class="max-w-[600px] w-full">
+                        <div class="max-w-[600px] w-full border-solid border-x-[1px] border-white-border">
                             @yield('content')
                         </div>
                         @include('frontend.layouts.right-sidebar')
